@@ -2,7 +2,9 @@
 Allows use of Mapbox [geojson-merge](https://github.com/mapbox/geojson-merge) in the browser.
 
 # Install
+
   #### Dependencies
+  
   * Browserify
     * `npm install -g browserify`
 
