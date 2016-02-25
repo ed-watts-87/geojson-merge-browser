@@ -1,0 +1,24 @@
+{
+  "name": "geojson-merge-browser",
+  "version": "1.0.0",
+  "description": "Use Mapbox's great geojson-merge in the browser!",
+  "scripts": {
+    "build": "browserify build.js --standalone request --outfile geojson-merge.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ed Watts",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edwattsOS/geojson-merge-browser.git"
+  },
+  "keywords": [
+    "geojson",
+    "merge",
+    "featurecollection",
+    "browser"
+  ],
+  "dependencies": {
+    "geojson-merge": "^0.1.0"
+  }
+}
