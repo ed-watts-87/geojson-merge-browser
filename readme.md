@@ -2,11 +2,9 @@
 Allows use of Mapbox [geojson-merge](https://github.com/mapbox/geojson-merge) in the browser.
 
 # Install #
+#### Dependencies
 
-  #### Dependencies ####
-
-  * Browserify
-    * `npm install -g browserify`
+* Browserify: `$ npm install -g browserify`
 
 **_You can:_**
 1. Use geojson-merge.js from the repo :smile:
@@ -17,11 +15,11 @@ Allows use of Mapbox [geojson-merge](https://github.com/mapbox/geojson-merge) in
   * The latest version of gejson-merge for the browser is ready to use!
 
 # Usage #
-  1. Include the source via HTML ```<script>``` tags
-      ```html
-        <script src='path/to/geojson-merge.js'></script>
-      ```
-  2. In your JavaScript
-    ```javascript
-      var merged = merge([featureCollection1, featureCollection2...])
-    ```
+1. Include the source via HTML ```<script>``` tags
+```html
+<script src='path/to/geojson-merge.js'></script>
+```
+2. In your JavaScript
+```javascript
+var merged = merge([featureCollection1, featureCollection2...])
+```
