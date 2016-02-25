@@ -1,6 +1,5 @@
 .DS_Store
 node_modules
 build.txt
-entry.js
 index.html
 package.json
